@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,OAAO,EAAE,IAAI;EACb,WAAW,EAAC,MAAM;EAClB,SAAS,EAAE,SAAS;EACpB,eAAe,EAAE,IAAI;EACrB,aAAa,EAAE,SAAS;CAC3B;;AAED,AAAA,mBAAmB,CAAC;EAChB,WAAW,EAAE,CAAC;CACjB;;AAED,AAAA,wBAAwB,CAAC;EACrB,KAAK,EAAE,SAAS;EAChB,MAAM,EAAE,SAAS;EACjB,YAAY,EAAE,QAAQ;CACzB;;AAED,AAAA,mBAAmB,CAAC;EAChB,WAAW,EAAE,MAAM;CACtB",
+    "sources": [
+        "phone-number.scss"
+    ],
+    "names": [],
+    "file": "phone-number.css"
+}

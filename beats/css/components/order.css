@@ -1,0 +1,19 @@
+.order__section {
+  height: 90vh;
+  background: url("../../img/background/form__back.png") center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.order__section::after {
+  position: absolute;
+  top: rem(-21px);
+  right: rem(270px);
+  content: url("../../img/decor/polyg.png");
+}
+
+.order__container {
+  padding-bottom: rem(28px);
+  padding-left: rem(12px);
+}
+/*# sourceMappingURL=order.css.map */

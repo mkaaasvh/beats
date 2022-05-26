@@ -1,0 +1,18 @@
+.benefits-section {
+    position: relative;
+    background: url("../../img/decor/rect.png") left 18% top 97% no-repeat;
+
+    @include tablets {
+        height: 138vh;
+    }
+
+    @include phones {
+        background: none;
+    }
+}
+
+.benefits__container {
+    @include tablets {
+        height: 39vh;
+    }
+}

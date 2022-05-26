@@ -1,0 +1,84 @@
+.hero {
+    background: url("../img/background/beats.png") top 70% left 70% no-repeat;
+    background-color: $lightGrey;
+    height: 90vh;
+    min-height: rem(650px);
+    color: #292929;
+    position: relative;
+
+    @include tablets {
+        background: none;
+        background-color: $lightGrey;
+        height: 159vh;
+    }
+
+    @include phones {
+        height: 127vh;
+    }
+
+    &::after {
+        position: absolute;
+        bottom: rem(-27px);
+        right:22%;
+
+        content: url("../img/decor/line.png");
+    }
+}
+
+.hero__title-section {
+    width: 43%;
+    margin-bottom: rem(78px);
+
+    @include tablets {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &::before {
+            content: url("../../img/background/tablets.png");
+            margin-bottom: rem(59px);
+        }
+    }
+}
+
+.hero__icons-section {
+    @include tablets {
+        display: none;
+    }
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 88%;
+    padding: rem(24px) 0 rem(45px);
+}
+
+.hero__main-title {
+    font-size: rem(48px);
+    line-height: 1.1;
+    font-weight: bold;
+    margin-bottom: rem(24px);
+    text-transform: uppercase;
+
+    @include tablets {
+        width: 85%;
+        margin-bottom: rem(7px);
+    }
+}
+
+.hero__title-desc {
+    font-size: rem(18px);
+    margin-bottom: rem(50px);
+    padding-right:23%;
+
+    @include tablets{
+        padding: 0 25%;
+        margin-bottom: rem(26px);
+    }
+}
